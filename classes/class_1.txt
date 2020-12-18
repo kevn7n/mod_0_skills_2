@@ -1,0 +1,15 @@
+class: Produce
+
+attributes:
+  name (string)
+  is_clean (boolean)
+  weight_lbs (float)
+  cooking_steps (array)
+  quantity (integer)
+
+methods:
+  portion (adds 1 to quantity)
+  wash (changes is_clean to 't')
+  peel (subtracts 1 from weight_lbs)
+  do_step (eliminates first element in cooking_steps)
+  
