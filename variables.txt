@@ -1,0 +1,11 @@
+food = 'burger'
+is_delicious = t
+food = 'pasta'
+num2 = 12
+num7 = 3
+
+quotient = 0.25
+songs = ['Someday', 'My Heart Will Go On', 'Boogie Shoes']
+
+songs.shift
+food.size
