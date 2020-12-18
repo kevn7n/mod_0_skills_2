@@ -1,0 +1,14 @@
+instance:  squash
+
+attributes:
+  name = 'squash'
+  is_clean = f
+  weight_lbs = 2.41
+  cooking_steps = [ 'peel', 'cube', 'oil', 'bake']
+  quantity = 1
+
+  methods:
+  portion =>  quantity = 2
+  wash =>  is_clean = t
+  peel =>  weight_lbs = 1.41
+  do_step =>  cooking_steps = [ 'cube', 'oil', 'bake']
