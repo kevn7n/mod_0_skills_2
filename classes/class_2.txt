@@ -1,0 +1,14 @@
+class: Employee
+
+attributes:
+  name (string)
+  works_bar (boolean)
+  pay_per_hour_dollars (float)
+  positions_trained (array)
+  full_hours_worked (integer)
+
+methods:
+  assign_busser (changes name to 'busser')
+  help_bar (changes works_bar to 't')
+  train_cashier (adds 'cashier' to positions_trained)
+  paycheck (calculate paycheck = pay_per_hour_dollars * full_hours_worked)
