@@ -1,0 +1,14 @@
+instance: Joe McJoejoe
+
+attributes:
+  name = 'Joe McJoejoe'
+  works_bar = f
+  pay_per_hour_dollars = 15.20
+  positions_trained = ['host(ess)', 'dishwasher', 'busser']
+  full_hours_worked = 42
+
+methods:
+  assign_bussser =>  name = 'busser'
+  help_bar =>  works_bar = t
+  train_cashier =>  positions_trained = ['cashier', 'host(ess)', 'dishwasher', 'busser']
+  paycheck = 15.20 * 42 = 638.40
